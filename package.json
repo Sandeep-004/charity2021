@@ -1,0 +1,15 @@
+ {
+  "name": "charityserver",
+  "version": "1.0.0",
+  "description": "steps for charity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node charity.js"
+  },
+  "author": "sandeep sharma",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}

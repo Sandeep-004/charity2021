@@ -1,0 +1,765 @@
+body  {
+
+	color: #444;
+	font-weight: 300;
+	background-color: #fff;
+	overflow-x: hidden;
+	line-height: 1.5;
+	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
+
+.container-fluid {
+
+	
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+
+
+
+/*-----NAVBAR-------*/
+
+#header {
+
+	background-color: #000000;
+}
+
+
+.navbar-inverse,
+.navbar-collapse {
+
+
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%; 
+
+}
+
+
+.lighter {
+
+	font-weight: 100;
+
+}
+
+
+.navbar-fixed-top,
+.navbar-collapse {
+
+	max-height: 340px;
+}
+
+#Run
+ {	
+
+	width: 40px;
+	border-radius: 50px;
+
+
+}
+
+#step {
+
+ 
+}
+
+
+
+/*-----INITIAL------*/
+
+
+
+
+
+#hero
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/sponcer.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 150px 10px;
+}
+
+#hero h1 {
+
+	font-size: 50px;
+	width:100%;
+	font-weight: bold;
+	color: #fff;
+	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	float: left;
+	padding-top: 15%;
+	
+}
+
+#para1 {
+
+	color: #fff;
+	display: block;
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 1.4;
+
+}
+
+#hero .btn {
+
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 1px;
+	color: #fff;
+	background-color: gray;
+
+	
+}
+
+
+
+
+#hero .btn:hover {
+
+	background-color: #fff;
+	color: black;
+
+
+}
+
+/*-----secondary------*/
+
+#secondary {
+
+	background-color: #01b0d1;  
+	opacity: 0.9;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 80px;
+
+}
+
+
+strong {
+
+	font-weight: 700;
+}
+
+.section-title {
+
+	text-transform: uppercase;
+	font-size: 44px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 5px;
+	display: block;
+	text-align: center;
+	margin-bottom: 8px;
+	
+
+	
+}
+
+.maintitle .lead 	
+{
+
+	text-align: center;
+	display: block;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 10%;
+		
+}
+
+p.lead {
+
+     font-weight: 200;	
+     font-size: 34px;
+     margin-right: 20px;
+     margin-right: 0;
+     color: #fff;
+}
+
+.service-box img {
+
+	margin-bottom: 29px;
+}
+
+img {
+
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	opacity: 2;
+	font-size: 40%;
+}
+
+.service-box {
+
+	margin-bottom: 30px;
+	width: 100%;
+	background-color: #fff;
+	color: #444;
+	padding: 30px;
+	top: 0;
+}
+
+.maintitle,
+.service-box {
+	text-align: center;
+}
+
+#August {
+
+	margin-top: 0;
+}
+
+.text-left {
+	width: 80%;
+	font-size: 15px;
+}
+
+
+p {
+	margin-bottom: 20px;
+	margin: 0 0 10px;
+}
+
+.text-left {
+	margin-left: 10%;
+}
+
+.service-box
+.glyphicon {
+	font-size: 60px;
+	margin-bottom: 20px;
+
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#about {
+ background-image: url(images/mountain.jpg);
+}
+
+
+.participation {
+
+	background-image: url(images/12.jpg);
+	width: 100%;
+	max-height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+.justtitle {
+
+	color: #502d2d;
+
+} 
+
+.bottom {
+    
+   position: relative;
+   right: 5%;
+    margin-left: 15%;
+    letter-spacing: 1px;
+}
+
+.wrapsection {
+
+		
+	position: relative;
+}
+
+
+#event {
+
+	background-color: #307c7c;
+	opacity: 0.9;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 80px;
+	overflow: hidden;
+
+}
+
+.gallery-section {
+
+	background-image: url(images/event.jpg);	 
+	background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.nature {
+
+	overflow: hidden;
+}
+
+#gallery a:hover img
+{
+	transform: scale(1.4);
+	
+}
+	  
+
+
+#gallery img {
+
+	width: 100%;
+	height: auto;
+	transition: transform 0.5s; 	
+}
+#gallery a
+{
+	overflow:hidden;
+	display: block;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+	outline: none;
+}
+
+#gallery a img {
+
+	margin-bottom: 0px;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	
+}
+
+#gallery
+.description {
+
+	background-color: #fff;
+	display: block;
+	padding: 20px 15px;
+	color: #333;
+	text-transform: uppercase;
+	clear: both;
+	position: relative;
+    
+}
+
+.camera
+{
+	float: right;
+}
+
+
+
+/*-----slider------*/
+
+
+.carousel-indicators li {
+
+	border-color: #fff;
+	height: 15px;
+	width: 15px;
+
+
+}
+
+#slider {
+
+	background-image: url(images/shap.jpg);
+	width: 100%;
+	max-height: 100%;
+     
+}
+
+.row {
+
+	margin-right:-15px;
+	margin-left: -15px;
+}
+
+.carousel .slide {
+
+	transition: all .2s;
+
+}
+
+#myCarousel {
+
+	position: relative;
+	padding: 100px;
+}
+
+
+.carousel-indicators li {
+
+     border-color: #fff;
+     margin: 0 2px;
+
+     height: 15px;
+     width: 15px;
+     border-radius:10px;	
+} 	
+
+.carousel-indicators li 
+.active {
+
+	height: 15px;
+	width: 15px;
+	border-radius: 10px;
+}
+
+.carousel-inner
+ blockquote {
+
+	border:none;
+	text-align: center;
+	
+}
+
+.carousel-inner
+ blockquote p {
+
+ 	font-size: 36px;
+ }
+
+blockquote {
+
+	padding-top: 0;
+	padding-bottom: 0;
+	border-color: #1ABC9C; 
+}
+
+.carousel-inner
+blockquote small {
+
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+}
+
+.carousel-control .left {
+
+	background-image: none;
+	
+}
+
+.carousel-control .right {
+
+     background-image: none;
+
+
+}
+
+
+.carousel-control {
+	color: #fff;
+	opacity: 1;
+	text-shadow: none;
+}
+
+/*-----FAQ------*/
+
+#FAQ {
+
+	background-color: #F9FAFD;
+
+}
+
+#CONDITIONS {
+
+	color: #444;
+	margin-top: 15%;
+}
+
+#para {
+
+	color: #444;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+/*-----Panel------*/
+
+.panel-default>.panel-heading+.panel-collapse 
+.panel-body {
+
+	border-top: 1px solid #eee;
+	
+}
+
+.panel-body {
+
+	font-size: 14px;
+	color: #444;
+}
+
+.panel {
+
+	margin: 15%;
+	margin-top: 0;
+
+
+}
+
+
+
+.panel h4 {
+
+	font-weight: bold;
+} 
+
+.panel a {
+
+	color: #444;
+	text-decoration: none !important;
+}
+
+
+.panel a:hover {
+
+	color: #01b0d1;
+}
+
+
+/*-----CHARITY & LOVE ARE THE SAME------*/
+
+.whitecolor {
+
+	background-image: url(images/images.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+#LOVE {
+
+	margin-top: 10%;
+}
+
+#until {
+
+	margin: 15%;
+	margin-top: 5%;
+}
+
+/*-----Contct-area------*/
+
+#contactarea {
+
+	background-image: url(images/42_1_contact-us.jpg);
+	width: 100%;
+	max-height: 100%;
+	background-size: cover;
+
+}
+
+.parallax-overlay{
+
+	background-color: #1cbb9b;
+	opacity: 0.8;
+	margin-bottom: 0%;
+
+}
+
+#question {
+
+	margin: 10%;
+	margin-top: 4%;
+
+}
+
+#goody {
+
+	margin-top: 5% !important;
+}
+
+#contactarea
+form {
+
+	max-width: 800px;
+	margin: 0px auto;
+	margin-top: -5%;
+}
+
+.text-left {
+
+	text-align: left;
+}
+
+#contact input
+
+{
+
+	height: 40px !important;
+	margin-bottom: 0px;
+	border-radius: 4px;
+
+}
+
+#contact input,
+#contact textarea {
+
+	width: 100%;
+	font-family: inherit;
+	line-height: inherit;
+	border: 0px;
+	color: #333;
+	background-color: #fff;
+	border: 0;
+
+}
+
+#contact label {
+
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 300;
+   letter-spacing: 3px;
+   font-size: 13px;
+
+}
+
+
+.required {
+ 
+ color: #fff;
+
+}
+
+textarea {
+
+	height: 180px;
+	width: 100%;
+	border-radius: 4px;
+
+}
+#contact
+input#submit {
+
+	width: auto;
+	text-transform: uppercase;
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0.3);
+	border: 0;
+	color: #fff;
+	padding: 0px 20px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin-left: 15px;
+}
+
+
+
+/*-----Credits------*/
+
+#credits {
+ 
+
+ text-transform: uppercase;
+ font-size: 13px;
+}
+
+.social  {
+
+	margin-right: 20px;
+}
+
+#credits .social i{
+   
+   border: 1px solid #ccc;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   margin-left: 4px;
+   text-align: center;
+   margin-bottom: 25px;
+   margin-top: 4%;
+   display: inline-block;
+   color: #444;
+   line-height: 30px;
+
+}
+
+#creadits a {
+
+  color: #444;
+
+}
+
+.copyright
+ {
+ 
+ /*margin-top: 5%;
+ margin-left: 61%;
+ margin-bottom: 40px;*/
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+.service-box {
+
+	left: 0;
+}
+
+.maintitle .lead {
+
+	padding-right: 0;
+
+}
+
+
+.bottom {
+  
+      margin-left: 0;
+}
+
+#myCarousel {
+
+	padding: 0;
+}
+
+p.lead {
+
+	font-size: 20px;
+}
+
+.carousel-inner
+ blockquote p{
+
+ 	font-size: 18px;
+ }
+
+ #until {
+
+ 	margin: 15px 0;
+ }
+
+
+// Large devices (desktops, 992px and up)
+@media screen and(max-width:992px) {
+     .service-box{
+
+     	padding: 10px;
+     }
+
+  }
+
